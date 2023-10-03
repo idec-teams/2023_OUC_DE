@@ -34,9 +34,9 @@ extra_javascript:
 
 edit_uri: blob/main/docs/
 
-repo_url: https://github.com/idec-teams/2023_OUC_DE
+repo_url: https://github.com/Test/2023_OUC_DE
 
-copyright: Copyright &copy; 2023 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+copyright: Copyright &copy; 2023 iDEC. CC-BY-4.0 | The InternatiTestonal Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
 
 nav:
   - Home: index.html
