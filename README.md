@@ -1,13 +1,7 @@
-# Wiki repoistory for iDEC 2023 | OUC_DE
+# Readme
 
-(This a temporary README file that needs to be updated before you submit the team wiki. Please stay tuned at [idec.io](https://idec.io) for future relevant announcements.)
+version 
 
-This is the wiki repository for iDEC 2023, Team: OUC_DE.
+- 1.0.2 保留每页的页尾
+- 1.0.3删除部分的页尾调整图片和内容
 
-The wiki created from this repository is hosted at [idec-teams.github.io/2023_OUC_DE](https://idec-teams.github.io/2023_OUC_DE).
-
-The default wiki layout is powered by [MkDocs](http://mkdocs.org) with the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
-
-## License
-
-[MkDocs](http://mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) are under the MIT Licence. Contents of this wiki are under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode) Copyright License.
