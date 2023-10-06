@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.aHover,
+.aHoverGRay {
+    transition: all .5s;
+}
+
+.aHover:hover {
+    color: #0dcaf0 !important;
+}
+
+input {
+    outline: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.aHoverGRay:hover {
+    color: #9e9e9e !important;
+}
