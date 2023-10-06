@@ -238,28 +238,452 @@
 
         <div class="row">
             <!-- 左侧的导航栏，只在xl以上显示 -->
-            <div class="position-fixed  nav-item d-none d-xl-block" style="top: 5.5rem;width: 24rem;">
-                <a class="nav-link text-dark fw-bold fs-6" href="#">iDEC 2023 | OUC_DE</a>
-                <a class="nav-link text-dark" href="./index.html">Home</a>
-                <a class="nav-link text-dark aHover" href="./Team.html">Team</a>
-                <a class="nav-link text-dark fw-bold fs-6" href="#">Project</a>
-                <a class="nav-link text-dark aHover" href="./Poster.html">Poster</a>
-                <a class="nav-link text-dark aHover" href="./Introduction.html">Introduction</a>
-                <div class="nav-link text-dark aHover" data-bs-toggle="collapse" data-bs-target="#Result" href="#">
-                    Result
-                    <i class="bi bi-chevron-right fs-6 fw-bold float-end me-5"></i>
+            <div class="row">
+                <!-- 左侧的导航栏，只在xl以上显示 -->
+                <div class="position-fixed  nav-item d-none d-xl-block" style="top: 5.5rem;width: 24rem;">
+                    <a class="nav-link text-dark fw-bold fs-6" href="#">iDEC 2023 | OUC_DE</a>
+                    <a class="nav-link text-dark" href="./index.html">Home</a>
+                    <a class="nav-link text-dark aHover" href="./Team.html">Team</a>
+                    <a class="nav-link text-dark fw-bold fs-6" href="#">Project</a>
+                    <a class="nav-link text-dark aHover" href="./Poster.html">Poster</a>
+                    <a class="nav-link text-dark aHover" href="./Introduction.html">Introduction</a>
+                    <div class="nav-link text-dark aHover" data-bs-toggle="collapse" data-bs-target="#Result" href="#">
+                        Result
+                        <i class="bi bi-chevron-right fs-6 fw-bold float-end me-5"></i>
 
+                    </div>
+                    <div id="Result" class="collapse px-3">
+                        <a class="nav-link text-dark aHover" href="./StructuralSimulation.html">Structural Simulation
+                        </a>
+                        <a class="nav-link text-dark aHover" href="./molecularDocking.html">molecular docking</a>
+                    </div>
+                    <a class="nav-link text-dark aHover" href="./Discussion.html">Discussion</a>
+                    <a class="nav-link text-dark fw-bold fs-6" href="#">Documentation</a>
+                    <a class="nav-link text-dark aHover" href="./Report.html">Report</a>
+                    <a class="nav-link text-dark aHover" href="./supplementaryTable.html">Supplementary</a>
+                    <a class="nav-link text-primary aHover" href="./MeterialsAndMethods.html">Materials and methods</a>
+                    <a class="nav-link text-dark aHover" href="./lab_notes.html">Lab noteBook</a>
                 </div>
-                <div id="Result" class="collapse px-3">
-                    <a class="nav-link text-dark aHover" href="./StructuralSimulation.html">Structural Simulation </a>
-                    <a class="nav-link text-dark aHover" href="./molecularDocking.html">molecular docking</a>
+                <!-- 中间主体 -->
+                <div class="col-lg-6 col-md-8 mt-3 text-start">
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h3 text-muted mt-5"> MeterialsAndMethods</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row">
+                    <p class="col fw-bold mx-0">
+                        Directed evolution of tunable bistable switch for cellular metabolic
+                    </p>
+
+                    <div class="col-4 mx-0"><img width="200px" src="./images/logo.jpg" alt=""></div>
+                </div> -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h5 fw-bold"> 1.Bacterial strains, media, chemicals and other materials</p>
+                        </div>
+                    </div>
+                    <div class="row my-0">
+                        <div class="col">
+                            The bacterial strains and plasmids and others used in this study are listed in Supplementary Table 1. E. coli T7-K12 was used for the construction of the original plasmid ptrc99a-araC and ptrc99a-tetR. The araC segment and tetR segment were mutated by
+                            epPCR to construct and screen a random mutation library. E. coli bacteria were cultured in the Luria-Bertani (LB) medium for propagation. LB liquid medium was prepared by LB Broth, powder 4.8g and ampicillin 0.01 g in 0.1 liter
+                            of pure water, while LB solid medium contained 15 g/liter of agar.
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h5  fw-bold"> 2.Expression vector construction</p>
+                        </div>
+                    </div>
+                    <div class="row my-0">
+                        <div class="col">
+                            Analysis of the Multiple Cloning Site (MCS) of the ptrc99a segment vector sequence showed that the best double enzyme digestion sites on MCS were KpnⅠ and SaIⅠ. We used snapGene to design the araC segment and the tetR segment. Ptrc99a was incised with
+                            KpnⅠ and SaIⅠ, and the araC segment and tetR were connected to ptrc99a with T4 ligase, respectively. The sequence of tetR, araC synthesized by Sangon Biotech (Shanghai) are shown in supplementary Table 2.Primer sequence of
+                            tetR, araC synthesized by Sangon Biotech (Shanghai) are shown in supplementary Table 1. The detailed steps are as follows：
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">2.1 Enzyme digestion of araC plasmid</p>
+                        </div>
+                    </div>
+                    <div class="row my-0">
+                        <div class="col">
+                            First, we use double digestion to cut the two plasmids containing the target segment.
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col">
+                            Double digestion reaction system:
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/1.png" alt="">
+                    </div>
+
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction conditions:
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/2.png" alt="">
+                    </div>
+                    <div class="row my-2">
+                        <div class="col">
+                            As the length of the araC target segment was similar to that of the remaining portion of the original plasmid (both approximately 2500bp), we used a single digestion on araC to produce two segments of 1067bp and 1500bp. This allowed for clear separation
+                            when Rubber recovery.
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="col">
+                            Single digestion reaction system:
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/3.png" alt="">
+                    </div>
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction conditions:
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/4.png" alt="">
+                    </div>
+
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">2.2 Enzyme digestion of tetR plasmid</p>
+                        </div>
+                    </div>
+
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction system:
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/6.png" alt="">
+                    </div>
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction conditions:
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/5.png" alt="">
+                    </div>
+
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">2.3 Agarose gel electrophoresis
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            System：
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/7.png" alt="">
+                    </div>
+
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">2.4 Rubber recovery
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            DNA segments were purifified from agarose gels by using the TIAgel Midi Purification Kit (TIANGEN, Bejing, China)
+                        </div>
+                    </div>
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                2.5 Digest ptrc99a
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            To faclitate Segment Interconnect, we use the same endonuclease to cut ptrc99a, araC and tetR
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Double digestion reaction system:
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/8.png" alt="">
+                    </div>
+
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction conditions:
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/9.png" alt="">
+                    </div>
+
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                2.6 The carrier is connected to the segment
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Escherichia coli DNA ligase and T4 DNA ligase are the main ligases used in genetic engineering. T4 ligase can catalyze the formation of phosphodiester bond between the 5 '-P end and 3' -OH end of double-stranded DNA, and also has good ligation efficiency
+                            for viscous end joining and end joining, it is wide application and have more users. Therefore, T4 ligase was selected for interconnection in this experiment
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction condition:
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/10.png" alt="">
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Overnight connection at 16℃, 3-5μL of the connection product was transformed into 100μL competent cells
+                        </div>
+                    </div>
+
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                2.7 Observation
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Fluorescence microscope was used to observe whether the cells were successfully imported. Since there is green fluorescent protein in the arabinose promoter, it can appear green under 450-480nm blue light excitation. If green fluorescence is shown, it
+                            is considered to be successful introduction. Therefore, arabinose was added to the culture medium of cells containing the ptrc99a plasmid and fluorescence was observed whether the color was developed.
+                        </div>
+                    </div>
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h5 fw-bold">
+                                3. protein structure prediction
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                3.1 data processing
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            The database we used contains data on the binding of thousands of protein sequences and their amino acids to DNA. Firstly, we extracted the information of amino acids from the database which contained 20 common amino acids and encoded each amino acid,
+                            then stored the information of each amino acid in a row vector. Each amino acid vector contained the types of the top n amino acids of the extracted amino acids, the types of the last n amino acids, the types of amino acids
+                            at the position, that position of the amino acids in the protein, the total number of amino acids in the protein, and information on the binding of amino acids at that position to DNA. Finally, we constructed a dataset containing
+                            296610 amino acid vectors, each representing an amino acid and its information in the protein. (n=10)
+                        </div>
+                    </div>
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                3.2 Prediction and scoring calculation
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            After constructing the dataset, we used the first 200000 pieces as the training set and the last 100000 pieces as the prediction set. We used the random forest algorithm to calculate the relationship between DNA binding sites and other information, established
+                            a prediction model, and evaluated the overall probability of DNA binding. Using the protein sequence to be tested for extraction and prediction, a matrix containing all amino acid vectors of the protein will be generated. The
+                            prediction results will be filled in the last row of each column, and the DNA binding site data in the last row will be directly output to determine whether the protein has a DNA binding site. The evaluated binding probability
+                            will be summed up and output to represent the overall binding of the protein to DNA. The dataset is listed in Supplementary Table 1
+                        </div>
+                    </div>
+
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width:;" src="./images/table/11.png" alt="">
+                    </div>
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                3.3 Iteration process
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            We constructed an iterative model for protein directed mutation based on the prediction of the above data in the iterationprocess (figure 2). Firstly, input the amino acid sequence of the protein to be measured, evaluated its binding site and binding
+                            probability Pi by using a trained model, and then stored it. Randomly replaced the amino acids within the specified range of the protein and evaluated the binding probability Pi+1 after mutation. If the scores increased, the
+                            replaced amino acid sequence and its scores would be stored and be replaced in the next round. If the scores decreased or remained , the current scores and sequence would not be stored, and the amino acid sequence before replacement
+                            would be used for the next round of replacement. When the scores of 20 mutations did not increase, it was judged that it had reached a local optimal solution. Due to the fact that this algorithm could not specify the binding
+                            site of DNA, in order to avoid making significant changes to the protein active site, we limited its iteration frequency to no more than 1000 times to prevent excessive deviation of the binding site
+                        </div>
+                    </div>
+
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width:;" src="./images/table/12.png" alt="">
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col text-center">
+                            Figure 1 How to calculate the score p
+                        </div>
+                    </div>
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h5 fw-bold">
+                                4.Error-prone PCR
+
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                4.1 Error-prone PCR
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Error-prone PCR takes advantage of the fact that Taq DNA polymerase does not have a 3 '→5' proofreading function, and can introduce random mutations with a high probability under certain conditions. The ptrc99a with target segment was mutated using the
+                            Controlled Error-prone PCR Kit, and the mutated plasmid was collected and purified by agarose gel electrophoresis and gel recovery.
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width:;" src="./images/table/13.png" alt="">
+                    </div>
+
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction system:
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" src="./images/table/14.png" alt="">
+                    </div>
+
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Reaction condition:
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" src="./images/table/15.png" alt="">
+                    </div>
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                4.2 Agarose gel electrophoresis
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            The enzyme digested fragment and mutated fragments and plasmids were subjected to agarose gel electrophoresis to facilitate discrimination and extraction
+                        </div>
+                    </div>
+
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            System：
+
+                        </div>
+                    </div>
+                    <!-- 图像 -->
+                    <div class="row">
+                        <img class="m-0" style="width: 50%;" src="./images/table/16.png" alt="">
+                    </div>
+
+                    <!-- 标题类 -->
+                    <div class="row">
+                        <div class="my-3">
+                            <p class="h6 fw-bold">
+                                4.3 Rubber recovery
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 内容类 -->
+                    <div class="row my-2">
+                        <div class="col">
+                            Purified enzyme digested fragment, ligated fragments and plasmids. Repeated several times to increase concentration.
+                        </div>
+                    </div>
+
+                    <div class="row my-2">
+                        <div class="col">
+                            The error-prone PCR products were recovered from the gel, cloned and functionally screened or sequenced for single colonies, and the mutated DNA could be used as a template for the next round of error-prone PCR if needed to increase the mutation rate
+                        </div>
+                    </div>
                 </div>
-                <a class="nav-link text-dark aHover" href="./Discussion.html">Discussion</a>
-                <a class="nav-link text-dark fw-bold fs-6" href="#">Documentation</a>
-                <a class="nav-link text-dark aHover" href="./Report.html">Report</a>
-                <a class="nav-link text-dark aHover" href="./supplementaryTable.html">Supplementary</a>
-                <a class="nav-link text-primary aHover" href="./MeterialsAndMethods.html">Materials and methods</a>
-                <a class="nav-link text-dark aHover" href="./lab_notes.html">Lab noteBook</a>
+
             </div>
             <!-- 中间主体 -->
             <div class="col-lg-6 col-md-8 mt-3 text-start">
